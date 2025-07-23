@@ -1,5 +1,5 @@
-import { getPosts } from "@/app/actions";
 import { NextResponse } from "next/server";
+import { getPosts } from "@/app/actions";
 
 export async function GET() {
   const posts = await getPosts();
